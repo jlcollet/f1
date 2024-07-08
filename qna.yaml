@@ -1,8 +1,12 @@
 task_description: 'Teach the model Formula One (f1) Grand Prix winners'
 created_by: jlcollet
 version: 1
+document:
+ repo: https://github.com/jlcollet/f1.git
+ commit: dff8cc9
+ patterns:
+   - List_of_Formula_One_Grand_Prix_winners.pdf   
 domain: sport/motorsport/f1
-
 seed_examples:
  - question: Which was the first Grand Prix won by Lewis Hamilton ?
    answer: |
@@ -27,8 +31,3 @@ seed_examples:
  - question: What is the last Grand Prix win of Sergio Perez ?
    answer: |
        Azerbaijan Grand Prix in 2023
-
-document:
- repo: https://github.com/jlcollet/f1.git
- patterns:
-   - List_of_Formula_One_Grand_Prix_winners.pdf
