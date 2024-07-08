@@ -31,4 +31,4 @@ seed_examples:
 document:
  repo: https://github.com/jlcollet/f1.git
  patterns:
-   - *.pdf
+   - List_of_Formula_One_Grand_Prix_winners.pdf
